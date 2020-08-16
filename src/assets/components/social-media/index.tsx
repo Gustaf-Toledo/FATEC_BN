@@ -8,19 +8,19 @@ export default function SocialMedia() {
     return (
         <div className="social-media">
           <div>
-            <Link to=""><span className="fa fa-facebook"></span></Link>
+            <a href="https://www.facebook.com/ftcguarulhos" target="_blank"><span className="fa fa-facebook"></span></a>
           </div>
           <div>
-            <Link to=""><span className="fa fa-twitter"></span></Link>
+            <a href="https://twitter.com/fatec_guarulhos?lang=pt" target="_blank"><span className="fa fa-twitter"></span></a>
           </div>
           <div>
-            <Link to=""><span className="fa fa-instagram"></span></Link>
+            <a href="https:/ixiiinaodeu.com" target="_blank"><span className="fa fa-instagram"></span></a>
           </div>
           <div>
-            <Link to=""><span className="fa fa-whatsapp"></span></Link>
+            <a href="https:/ixiiinaodeu.com" target="_blank"><span className="fa fa-whatsapp"></span></a>
           </div>
           <div>
-            <Link to=""><span className="fa fa-linkedin"></span></Link>
+            <a href="https://www.linkedin.com/company/faculdade-de-tecnologia-de-guarulhos---ceeteps/about/" target="_blank"><span className="fa fa-linkedin"></span></a>
           </div>
         </div>
     )

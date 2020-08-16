@@ -29,21 +29,21 @@ export default function Home(){
             <div className="carousel-item active">
                 <img className="d-block w-100" src={slide1} alt="Primeiro Slide" />
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>BEM VINDO À FATEC GUARULHOS</h5>
+                  <h2>BEM VINDO À FATEC GUARULHOS</h2>
                   <p>Ensino gratuito e de qualidade!</p>
                 </div>
             </div>
             <div className="carousel-item">
                 <img className="d-block w-100" src={slide2} alt="Segundo Slide" />
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>SALAS DE AULA</h5>
+                  <h2>SALAS DE AULA</h2>
                   <p>Totalmente equipadas e confortáveis!</p>
                 </div>
             </div>
             <div className="carousel-item">
               <img className="d-block w-100" src={slide3} alt="Terceiro Slide" />
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>VENHA CONHECER A UNIDADE</h5>
+                  <h2>VENHA CONHECER A UNIDADE</h2>
                   <p>Localizada na Rua Cristóbal Cláudio Elilo - Parque Cecap</p>
                 </div>
             </div>
@@ -57,34 +57,34 @@ export default function Home(){
           <div className="row">
             <div className="col-lg-4 mb-4">
               <div className="card h-100">
-                <h4 className="card-header">Destaque 1</h4>
+                <h4 className="card-header">Lançamento do novo site</h4>
                   <div className="card-body">
-                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+                    <p className="card-text">Lançamento do novo site da Fatec Guarulhos! Site desenvolvido pelos alunos do curso de Análise de Desenvolvimento de Sistemas.</p>
                   </div>
                   <div className="card-footer">
-                    <Link to="#" className="btn btn-primary">Saiba mais</Link>
+                    <a href="#" className="btn btn-primary">Saiba mais</a>
                   </div>
               </div>
             </div>
             <div className="col-lg-4 mb-4">
               <div className="card h-100">
-                <h4 className="card-header">Destaque 2</h4>
+                <h4 className="card-header">Segunda chamada Vestibular 2020</h4>
                   <div className="card-body">
-                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
+                    <p className="card-text">Se você estava ansioso pela segunda chamada do vestibular, ela SAIU! Acesse o link clicando no "saiba mais" e confira se você é o próximo fatecanx! </p>
                   </div>
                   <div className="card-footer">
-                    <Link to="#" className="btn btn-primary">Saiba mais</Link>
+                    <a href="https://www.vestibularfatec.com.br/classificacao/fatec.asp" className="btn btn-primary">Saiba mais</a>
                   </div>
               </div>
             </div>
             <div className="col-lg-4 mb-4">
               <div className="card h-100">
-                <h4 className="card-header">Destaque 3</h4>
+                <h4 className="card-header">Primeira chamada Vestibular 2020</h4>
                   <div className="card-body">
-                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+                    <p className="card-text">SAIU!! A lista dos novos integrantes das unidades FATEC está no ar. Clique no "saiba mais" e confiraaa!</p>
                   </div>
                   <div className="card-footer">
-                    <Link to="#" className="btn btn-primary">Saiba mais</Link>
+                    <a href="https://www.vestibularfatec.com.br/classificacao/fatec.asp" className="btn btn-primary">Saiba mais</a>
                   </div>
               </div>
             </div>
@@ -166,10 +166,10 @@ export default function Home(){
     
             <div className="row mb-4">
               <div className="col-md-8">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+                <p>Venha ser Fatecanx! Acesse o site do Vestibular e fique ligado nos editais. São duas oportunidades por ano, uma para o primeiro semestre e outra para o segundo semestre.</p>
               </div>
               <div className="col-md-4">
-                <Link className="btn btn-lg btn-secondary btn-block" to="#">Ir para o topo</Link>
+                <a className="btn btn-lg btn-secondary btn-block" href="https://www.vestibularfatec.com.br/home/" target="_blank">Ver editais</a>
               </div>
             </div>
       </div>
