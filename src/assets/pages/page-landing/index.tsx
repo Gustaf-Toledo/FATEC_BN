@@ -36,26 +36,18 @@ export default function Home(){
             <div className="carousel-item">
                 <img className="d-block w-100" src={slide2} alt="Segundo Slide" />
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Segundo Slide</h5>
-                  <p>Descrição</p>
+                  <h5>SALAS DE AULA</h5>
+                  <p>Totalmente equipadas e confortáveis!</p>
                 </div>
             </div>
             <div className="carousel-item">
               <img className="d-block w-100" src={slide3} alt="Terceiro Slide" />
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Terceiro Slide</h5>
-                  <p>Descrição</p>
+                  <h5>VENHA CONHECER A UNIDADE</h5>
+                  <p>Localizada na Rua Cristóbal Cláudio Elilo - Parque Cecap</p>
                 </div>
             </div>
             </div>
-            <Link className="carousel-control-prev" to="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span className="sr-only">Previous</span>
-            </Link>
-            <Link className="carousel-control-next" to="#carouselExampleIndicators" role="button" data-slide="next">
-              <span className="carousel-control-next-icon" aria-hidden="true"></span>
-              <span className="sr-only">Next</span>
-            </Link>
         </div>
       </header>
 
