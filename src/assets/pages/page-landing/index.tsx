@@ -7,6 +7,13 @@ import Footer from '../../components/footer/index';
 import '../../styles/bootstrap.css';
 import '../../pages/page-landing/styles.css';
 
+import log from '../../images/courses/log.jpg';
+import logap from '../../images/courses/loagp.jpg';
+import ads from '../../images/courses/ads.jpg';
+import comex from '../../images/courses/comex.jpg';
+import prind from '../../images/courses/prind.jpg';
+import proff from '../../images/courses/proff.jpg';
+
 import slide1 from '../../images/slide1.jpg';
 import slide2 from '../../images/slide2.jpg';
 import slide3 from '../../images/slide3.jpg';
@@ -95,7 +102,7 @@ export default function Home(){
             <div className="row">
               <div className="col-lg-4 col-sm-6 portfolio-item">
                 <div className="card h-100">
-                  <Link to="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""/></Link>
+                  <Link to="#"><img className="card-img-top" src={ads} alt=""/></Link>
                     <div className="card-body">
                       <h4 className="card-title">
                         <Link to="#">Análise e Desenvolvimento de Sistemas</Link>
@@ -106,7 +113,7 @@ export default function Home(){
               </div>
               <div className="col-lg-4 col-sm-6 portfolio-item">
                 <div className="card h-100">
-                  <Link to="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""/></Link>
+                  <Link to="#"><img className="card-img-top" src={log} alt=""/></Link>
                     <div className="card-body">
                       <h4 className="card-title">
                         <Link to="#">Logística</Link>
@@ -117,7 +124,7 @@ export default function Home(){
               </div>
                 <div className="col-lg-4 col-sm-6 portfolio-item">
                   <div className="card h-100">
-                    <Link to="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""/></Link>
+                    <Link to="#"><img className="card-img-top" src={comex} alt=""/></Link>
                       <div className="card-body">
                         <h4 className="card-title">
                           <Link to="#">Comércio Exterior</Link>
@@ -128,7 +135,7 @@ export default function Home(){
               </div>
               <div className="col-lg-4 col-sm-6 portfolio-item">
                 <div className="card h-100">
-                  <Link to="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""/></Link>
+                  <Link to="#"><img className="card-img-top" src={logap} alt=""/></Link>
                     <div className="card-body">
                       <h4 className="card-title">
                         <Link to="#">Logística Aeroportuária</Link>
@@ -139,7 +146,7 @@ export default function Home(){
               </div>
               <div className="col-lg-4 col-sm-6 portfolio-item">
                 <div className="card h-100">
-                  <Link to="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""/></Link>
+                  <Link to="#"><img className="card-img-top" src={proff} alt=""/></Link>
                     <div className="card-body">
                       <h4 className="card-title">
                         <Link to="#">Corpo Docente</Link>
@@ -150,7 +157,7 @@ export default function Home(){
               </div>
               <div className="col-lg-4 col-sm-6 portfolio-item">
                 <div className="card h-100">
-                  <Link to="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""/></Link>
+                  <Link to="#"><img className="card-img-top" src={prind} alt=""/></Link>
                     <div className="card-body">
                       <h4 className="card-title">
                         <Link to="#">Gestão da Produção Industrial</Link>
