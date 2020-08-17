@@ -8,7 +8,7 @@ import '../../styles/bootstrap.css';
 import '../../pages/page-landing/styles.css';
 
 import log from '../../images/courses/log.jpg';
-import logap from '../../images/courses/loagp.jpg';
+import logap from '../../images/courses/logap.jpg';
 import ads from '../../images/courses/ads.jpg';
 import comex from '../../images/courses/comex.jpg';
 import prind from '../../images/courses/prind.jpg';
