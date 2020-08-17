@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 import '../../styles/bootstrap.css';
 import '../../styles/global.css';
 
-function NavBar() {
+export default function NavBar() {
     return (
       <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div className="container">
-          <Link className="navbar-brand" to="">Fatec Guarulhos</Link>
+          <Link className="navbar-brand" to="/">Fatec Guarulhos</Link>
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
             </button>
@@ -20,9 +20,9 @@ function NavBar() {
                 Institucional
                 </Link>
                 <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                  <Link className="dropdown-item" to=""> Sobre a Fatec Guarulhos</Link>
-                  <Link className="dropdown-item" to=""> Histórico</Link>
-                  <Link className="dropdown-item" to=""> Administração</Link>
+                  <Link className="dropdown-item" to="/institucional"> Sobre a Fatec Guarulhos</Link>
+                  <Link className="dropdown-item" to="/institucional"> Histórico</Link>
+                  <Link className="dropdown-item" to="/institucional"> Administração</Link>
                 </div>
               </li>
               <li className="nav-item dropdown">
@@ -30,10 +30,10 @@ function NavBar() {
                   Acadêmico
                 </Link>
                 <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                  <Link className="dropdown-item" to=""> Biblioteca</Link>
-                  <Link className="dropdown-item" to=""> Calendário Acadêmico</Link>
-                  <Link className="dropdown-item" to=""> Docentes</Link>
-                  <Link className="dropdown-item" to=""> Discentes</Link>
+                  <Link className="dropdown-item" to="/academico"> Biblioteca</Link>
+                  <Link className="dropdown-item" to="/academico"> Calendário Acadêmico</Link>
+                  <Link className="dropdown-item" to="/academico"> Docentes</Link>
+                  <Link className="dropdown-item" to="/academico"> Discentes</Link>
                 </div>
               </li>
               <li className="nav-item dropdown">
@@ -41,11 +41,11 @@ function NavBar() {
                   Cursos
                 </Link>
                 <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
-                  <Link className="dropdown-item" to=""> Análise e Desenvolvimento de Sistemas</Link>
-                  <Link className="dropdown-item" to=""> Gestão da Produção Industrial</Link>
-                  <Link className="dropdown-item" to=""> Logística</Link>
-                  <Link className="dropdown-item" to=""> Logística Aeroportuária</Link>
-                  <Link className="dropdown-item" to=""> Comércio Exterior</Link>
+                  <Link className="dropdown-item" to="/cursos"> Análise e Desenvolvimento de Sistemas</Link>
+                  <Link className="dropdown-item" to="/cursos"> Gestão da Produção Industrial</Link>
+                  <Link className="dropdown-item" to="/cursos"> Logística</Link>
+                  <Link className="dropdown-item" to="/cursos"> Logística Aeroportuária</Link>
+                  <Link className="dropdown-item" to="/cursos"> Comércio Exterior</Link>
                 </div>
               </li>
             </ul>
@@ -54,5 +54,3 @@ function NavBar() {
       </nav>
     )
   };
-  
-  export default NavBar; 

@@ -102,10 +102,10 @@ export default function Home(){
             <div className="row">
               <div className="col-lg-4 col-sm-6 portfolio-item">
                 <div className="card h-100">
-                  <Link to="#"><img className="card-img-top" src={ads} alt=""/></Link>
+                  <Link to="/cursos"><img className="card-img-top" src={ads} alt=""/></Link>
                     <div className="card-body">
                       <h4 className="card-title">
-                        <Link to="#">Análise e Desenvolvimento de Sistemas</Link>
+                        <Link to="/cursos">Análise e Desenvolvimento de Sistemas</Link>
                       </h4>
                       <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
                     </div>
@@ -113,10 +113,10 @@ export default function Home(){
               </div>
               <div className="col-lg-4 col-sm-6 portfolio-item">
                 <div className="card h-100">
-                  <Link to="#"><img className="card-img-top" src={log} alt=""/></Link>
+                  <Link to="/cursos"><img className="card-img-top" src={log} alt=""/></Link>
                     <div className="card-body">
                       <h4 className="card-title">
-                        <Link to="#">Logística</Link>
+                        <Link to="/cursos">Logística</Link>
                       </h4>
                       <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
                     </div>
@@ -124,10 +124,10 @@ export default function Home(){
               </div>
                 <div className="col-lg-4 col-sm-6 portfolio-item">
                   <div className="card h-100">
-                    <Link to="#"><img className="card-img-top" src={comex} alt=""/></Link>
+                    <Link to="/cursos"><img className="card-img-top" src={comex} alt=""/></Link>
                       <div className="card-body">
                         <h4 className="card-title">
-                          <Link to="#">Comércio Exterior</Link>
+                          <Link to="/cursos">Comércio Exterior</Link>
                         </h4>
                         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
                       </div>
@@ -135,10 +135,10 @@ export default function Home(){
               </div>
               <div className="col-lg-4 col-sm-6 portfolio-item">
                 <div className="card h-100">
-                  <Link to="#"><img className="card-img-top" src={logap} alt=""/></Link>
+                  <Link to="/cursos"><img className="card-img-top" src={logap} alt=""/></Link>
                     <div className="card-body">
                       <h4 className="card-title">
-                        <Link to="#">Logística Aeroportuária</Link>
+                        <Link to="/cursos">Logística Aeroportuária</Link>
                       </h4>
                       <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
                     </div>
@@ -157,10 +157,10 @@ export default function Home(){
               </div>
               <div className="col-lg-4 col-sm-6 portfolio-item">
                 <div className="card h-100">
-                  <Link to="#"><img className="card-img-top" src={prind} alt=""/></Link>
+                  <Link to="/cursos"><img className="card-img-top" src={prind} alt=""/></Link>
                     <div className="card-body">
                       <h4 className="card-title">
-                        <Link to="#">Gestão da Produção Industrial</Link>
+                        <Link to="/cursos">Gestão da Produção Industrial</Link>
                       </h4>
                       <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
                     </div>

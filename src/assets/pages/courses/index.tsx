@@ -1,7 +1,15 @@
 import React from 'react';
+import NavBar from '../../components/navbar';
+import Footer from '../../components/footer';
+
+import '../../styles/bootstrap.css';
 
 export default function Cursos(){
     return (
-        <h1>Tela de Cursos</h1>
+        <div className="courses-content">
+            <NavBar />
+
+            <Footer />
+        </div>
     );
 }
