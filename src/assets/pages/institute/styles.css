@@ -1,0 +1,11 @@
+.institute-content .container .row {
+    margin-top: 2rem;
+}
+
+.institute-content .container .row #courses .buttons #first-button {
+    margin-right: 1rem;
+}
+
+.institute-content .container .row #courses > p {
+    margin-top: 2rem;
+} 

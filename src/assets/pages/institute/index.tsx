@@ -5,6 +5,11 @@ import NavBar from '../../components/navbar';
 import Footer from '../../components/footer';
 
 import '../../styles/bootstrap.css';
+import '../../pages/institute/styles.css';
+
+const pdfH = require('./pdf/historico.pdf');
+const pdfADM = require('./pdf/adm.pdf');
+
 
 export default function Institucional() {
     return (
@@ -40,12 +45,18 @@ export default function Institucional() {
                                 As ações acadêmicas são planejadas, orientadas, coordenadas, acompanhadas, controladas e avaliadas pela Unidade do Ensino Superior de Graduação - Cesu, respeitada a legislação vigente.
                             </p>
                         </div>
-                        <div className="col-md-8 mb-5">
+                        <div id="courses" className="col-md-8 mb-5">
                             <h2>A unidade de Guarulhos</h2>
                             <hr/>
-                            <p>A Faculdade de Tecnologia de Guarulhos - Fatec Guarulhos foi criada pelo Governo do Estado de São Paulo mediante a publicação do Decreto Nº 52.059 de 15 de agosto de 2007.</p>
                             <p>
-                                <strong>Atualmente oferece 5 cursos sendo eles:</strong>
+                                A Faculdade de Tecnologia de Guarulhos - Fatec Guarulhos foi criada pelo Governo do Estado de São Paulo mediante a publicação do Decreto Nº 52.059 de 15 de agosto de 2007.
+                            </p>
+                            <div className="buttons">
+                                <a id="first-button" className="btn btn-primary btn-lg" href={pdfH}>Histórico</a>
+                                <a className="btn btn-primary btn-lg" href={pdfADM}>Administração</a>
+                            </div>
+                            <p>
+                                <strong>Atualmente a FATEC-GRU oferece 5 cursos, sendo eles:</strong>
                                 <ul>
                                     <li>Comércio Exterior (Manhã - 40 vagas)</li>
                                     <li>Gestão da Produção Industrial (Noite - 40 vagas)</li>

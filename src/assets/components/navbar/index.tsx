@@ -16,7 +16,7 @@ export default function NavBar() {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item dropdown">
-                <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <Link className="nav-link" to="/institucional" id="navbarInstitute" aria-haspopup="true" aria-expanded="false">
                 Institucional
                 </Link>
                 <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
@@ -26,27 +26,14 @@ export default function NavBar() {
                 </div>
               </li>
               <li className="nav-item dropdown">
-                <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Acadêmico
-                </Link>
-                <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                  <Link className="dropdown-item" to="/academico"> Biblioteca</Link>
-                  <Link className="dropdown-item" to="/academico"> Calendário Acadêmico</Link>
-                  <Link className="dropdown-item" to="/academico"> Docentes</Link>
-                  <Link className="dropdown-item" to="/academico"> Discentes</Link>
-                </div>
-              </li>
-              <li className="nav-item dropdown">
-                <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdownPages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+                <Link className="nav-link" to="/cursos" id="navbarCourses" aria-haspopup="true" aria-expanded="false"> 
                   Cursos
                 </Link>
-                <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
-                  <Link className="dropdown-item" to="/cursos"> Análise e Desenvolvimento de Sistemas</Link>
-                  <Link className="dropdown-item" to="/cursos"> Gestão da Produção Industrial</Link>
-                  <Link className="dropdown-item" to="/cursos"> Logística</Link>
-                  <Link className="dropdown-item" to="/cursos"> Logística Aeroportuária</Link>
-                  <Link className="dropdown-item" to="/cursos"> Comércio Exterior</Link>
-                </div>
+              </li>
+              <li className="nav-item dropdown">
+                <Link className="nav-link" to="/academico" id="navbarAcademic" aria-haspopup="true" aria-expanded="false">
+                  Acadêmico
+                </Link>
               </li>
             </ul>
           </div>
