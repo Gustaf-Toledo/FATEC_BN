@@ -10,10 +10,14 @@ import logoCPS from '../../images/cps-logo.png';
 export default function Footer() {
     return (
         <footer id="main-footer" className="py-5 bg-dark">
-            <div className="container">
+            <div>
                 <SocialMedia />
+            </div>
+            <div>
                 <img src={logoCPS} alt="Centro Paula Souza"/>
-                <p className="m-0 text-center text-white">Copyright &copy; FATEC Guarulhos 2020</p>
+            </div>
+            <div>
+            <p className="m-0 text-center text-white">Copyright &copy; FATEC Guarulhos 2020</p>
             </div>
         </footer>
     )

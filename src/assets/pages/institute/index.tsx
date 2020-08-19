@@ -17,7 +17,7 @@ export default function Institucional() {
             <NavBar />
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-12 mb-5">
+                        <div id="about-fatec" className="col-md-12 mb-5">
                             <h2>Sobre as Fatecs</h2>
                             <hr/>
                             <p>As Faculdades de Tecnologia - Fatecs são Unidades de Ensino Superior de Graduação e Pós-Graduação, do Centro Estadual de Educação Tecnológica Paula Souza - Ceeteps, autarquia de regime especial associada à Universidade Estadual Paulista “Júlio de Mesquita Filho” - UNESP, instituição de direito público da administração indireta do Governo do Estado de São Paulo, vinculada à Secretaria de Desenvolvimento Econômico, Ciência, Tecnologia e Inovação, e regidas por este Regimento para a consecução de seus objetivos, observando-se o estabelecido no Regimento do Ceeteps, aprovado pelo Decreto 58.385, de 13-09-2012, e legislação vigente.</p>
@@ -29,7 +29,7 @@ export default function Institucional() {
                                 </ul>
                             </p>
                         </div>
-                        <div className="col-md-12 mb-5">
+                        <div id="fatec-objective" className="col-md-12 mb-5">
                             <h2>Objetivos das Fatecs</h2>
                             <hr/>
                             <ol>
@@ -45,7 +45,7 @@ export default function Institucional() {
                                 As ações acadêmicas são planejadas, orientadas, coordenadas, acompanhadas, controladas e avaliadas pela Unidade do Ensino Superior de Graduação - Cesu, respeitada a legislação vigente.
                             </p>
                         </div>
-                        <div id="courses" className="col-md-8 mb-5">
+                        <div id="fatec-gru" className="col-md-8 mb-5">
                             <h2>A unidade de Guarulhos</h2>
                             <hr/>
                             <p>

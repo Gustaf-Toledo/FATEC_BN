@@ -56,10 +56,10 @@ export default function Cursos(){
                             <h2>Gestão da Produção Industrial</h2>
                             <hr/>
                             <h4>Perfil Profissional</h4>
-                            <p>Planeja, supervisiona e aplica processos de produção. Planeja a logística de movimentação do produto na indústria. Avalia e otimiza fluxos de materiais, layouts e linhas de produção. Supervisiona a seleção e o tratamento das matérias-primas. Controla a qualidade de processos. Coordena equipes de trabalho. Especifica técnicas de informação para gestão e controle da manufatura. Vistoria, realiza perícia, avalia, emite laudo e parecer técnico em sua área de formação.</p>
+                            <p>O Tecnólogo de Gestão da Produção Industrial  planeja, supervisiona e aplica processos de produção. Planeja a logística de movimentação do produto na indústria. Avalia e otimiza fluxos de materiais, layouts e linhas de produção. Supervisiona a seleção e o tratamento das matérias-primas. Controla a qualidade de processos. Coordena equipes de trabalho. Especifica técnicas de informação para gestão e controle da manufatura. Vistoria, realiza perícia, avalia, emite laudo e parecer técnico em sua área de formação.</p>
                             <h4>Área de Atuação</h4>
                             <p>
-                            O tecnólogo de Gestão da Produção Industrial pode atuar em empresas de planejamento, desenvolvimento de projetos e assistência técnica em sua área de formação, indústrias em geral e setor de serviços, além de institutos e centros de pesquisa e instituições de ensino, mediante formação requerida pela legislação vigente.
+                            Pode atuar em empresas de planejamento, desenvolvimento de projetos e assistência técnica em sua área de formação, indústrias em geral e setor de serviços, além de institutos e centros de pesquisa e instituições de ensino, mediante formação requerida pela legislação vigente.
                             </p>
                             <h4>Objetivos Gerais</h4>
                             <p>Propiciar a graduação de profissionais de Gestão da Produção Industrial que possam contribuir para a inovação e melhoria de processos industriais nas organizações, se anteciparem aos problemas, resolvendo-os e assim poder minimizar custos e maximizar benefícios da atividade econômica empresarial, dentro de perspectiva ética e sustentável dos negócios.</p>

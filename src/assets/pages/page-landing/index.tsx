@@ -69,7 +69,7 @@ export default function Home(){
                     <p className="card-text">Lançamento do novo site da Fatec Guarulhos! Site desenvolvido pelos alunos do curso de Análise de Desenvolvimento de Sistemas.</p>
                   </div>
                   <div className="card-footer">
-                    <a href="#" className="btn btn-primary">Saiba mais</a>
+                    <Link to="/noticias" className="btn btn-primary">Saiba mais</Link>
                   </div>
               </div>
             </div>
@@ -97,50 +97,52 @@ export default function Home(){
             </div>
           </div>
     
-          <h2>Conteúdos Principais</h2>
+          <h1>Conteúdos Principais</h1>
 
             <div className="row">
               <div className="col-lg-4 col-sm-6 portfolio-item">
                 <div className="card h-100">
-                  <Link to="/cursos/#ads"><img className="card-img-top" src={ads} alt=""/></Link>
+                  <a href="/cursos/#ads"><img className="card-img-top" src={ads} alt=""/></a>
                     <div className="card-body">
                       <h4 className="card-title">
-                        <Link to="/cursos/#ads">Análise e Desenvolvimento de Sistemas</Link>
+                        <a href="/cursos/#ads">Análise e Desenvolvimento de Sistemas</a>
                       </h4>
-                      <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+                      <p className="card-text">O Tecnólogo em Análise e Desenvolvimento de Sistemas analisa, projeta, documenta, especifica, testa, implanta e mantém sistemas computacionais de informação. <br/> <br/> <strong>Vespertino - 40 Vagas </strong></p>
                     </div>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 portfolio-item">
                 <div className="card h-100">
-                  <Link to="/cursos/#log"><img className="card-img-top" src={log} alt=""/></Link>
+                  <a href="/cursos/#log"><img className="card-img-top" src={log} alt=""/></a>
                     <div className="card-body">
                       <h4 className="card-title">
-                        <Link to="/cursos/#log">Logística</Link>
+                        <a href="/cursos/#log">Logística</a>
                       </h4>
-                      <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                      <p className="card-text">
+                      O Tecnólogo em Logística é o profissional especializado em armazenagem, distribuição e transporte. Atuando na área logística de uma organização, planeja e coordena a movimentação física e de informações sobre as operações multimodais e intermodais de transporte, incluindo o gerenciamento de pessoas para proporcionar fluxo otimizado ao longo da cadeia de suprimentos. <br/><br/><strong>Vespertino - 40 Vagas <br/> Noturno - 40 Vagas</strong>
+                      </p>
                     </div>
                 </div>
               </div>
                 <div className="col-lg-4 col-sm-6 portfolio-item">
                   <div className="card h-100">
-                    <Link to="/cursos/#comext"><img className="card-img-top" src={comex} alt=""/></Link>
+                    <a href="/cursos/#comext"><img className="card-img-top" src={comex} alt=""/></a>
                       <div className="card-body">
                         <h4 className="card-title">
-                          <Link to="/cursos/#comext">Comércio Exterior</Link>
+                          <a href="/cursos/#comext">Comércio Exterior</a>
                         </h4>
-                        <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+                        <p className="card-text">O Tecnólogo em Comércio Exterior é o profissional empreendedor capaz de contribuir para a inserção das empresas no comércio internacional. Gerencia operações de comércio exterior. <br/><br/><strong>Matutino - 40 Vagas</strong></p>
                       </div>
                   </div>
               </div>
               <div className="col-lg-4 col-sm-6 portfolio-item">
                 <div className="card h-100">
-                  <Link to="/cursos/#logap"><img className="card-img-top" src={logap} alt=""/></Link>
+                  <a href="/cursos/#logap"><img className="card-img-top" src={logap} alt=""/></a>
                     <div className="card-body">
                       <h4 className="card-title">
-                        <Link to="/cursos/#logap">Logística Aeroportuária</Link>
+                        <a href="/cursos/#logap">Logística Aeroportuária</a>
                       </h4>
-                      <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                      <p className="card-text">O Tecnólogo em Logística Aeroportuária está habilitado a desenvolver atividades de planejamento, controle e supervisão no exercício de funções relacionadas à gestão aeroportuária, principalmente nos aspectos de logística: armazenagem, distribuição e transporte; planejamento e coordenação da movimentação física e de informações sobre as operações de transporte aéreo, para proporcionar fluxo otimizado e de qualidade para passageiros, e produtos. <br/><br/><strong>Matutino - 40 Vagas</strong></p>
                     </div>
                 </div>
               </div>
@@ -149,20 +151,23 @@ export default function Home(){
                   <Link to="#"><img className="card-img-top" src={proff} alt=""/></Link>
                     <div className="card-body">
                       <h4 className="card-title">
-                        <Link to="#">Corpo Docente</Link>
+                        <a href="#">Corpo Docente</a>
                       </h4>
-                      <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                      <p className="card-text">Conheça nossos professores clicando em "saiba mais".</p>
+                    </div>
+                    <div className="card-footer">
+                      <a href="/noticias" className="btn btn-primary">Saiba mais</a>
                     </div>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 portfolio-item">
                 <div className="card h-100">
-                  <Link to="/cursos/#ind"><img className="card-img-top" src={prind} alt=""/></Link>
+                  <a href="/cursos/#ind"><img className="card-img-top" src={prind} alt=""/></a>
                     <div className="card-body">
                       <h4 className="card-title">
-                        <Link to="/cursos/#ind">Gestão da Produção Industrial</Link>
+                        <a href="/cursos/#ind">Gestão da Produção Industrial</a>
                       </h4>
-                      <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
+                      <p className="card-text">O Tecnólogo de Gestão da Produção Industrial planeja, supervisiona e aplica processos de produção. Planeja a logística de movimentação do produto na indústria. Avalia e otimiza fluxos de materiais, layouts e linhas de produção. Supervisiona a seleção e o tratamento das matérias-primas. <br/><br/><strong>Noturno - 40 Vagas</strong></p>
                     </div>
                 </div>
               </div>

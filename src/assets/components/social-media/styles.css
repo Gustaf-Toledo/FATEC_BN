@@ -9,15 +9,17 @@
 
 .social-media {
     display: flex;
+    align-items: center;
+    justify-content: center;
     grid-template-columns: repeat(5, 1fr);
     column-gap: .5rem;
 }
 
 .social-media > div {
-    width:2rem;
-    height:2rem;
+    width:3rem;
+    height:3rem;
     background: #fff;
-    font-size:1rem;
+    font-size:1.5rem;
     display:grid;
     align-self: center;
     place-items: center;
