@@ -103,10 +103,10 @@ export default function Home(){
             <div className="row">
               <div className="col-lg-4 col-sm-6 portfolio-item">
                 <div className="card h-100">
-                  <a href="/cursos/#ads"><img className="card-img-top" src={ads} alt=""/></a>
+                  <a href="/cursos"><img className="card-img-top" src={ads} alt=""/></a>
                     <div className="card-body">
                       <h4 className="card-title">
-                        <a href="/cursos/#ads">Análise e Desenvolvimento de Sistemas</a>
+                        <a href="/cursos">Análise e Desenvolvimento de Sistemas</a>
                       </h4>
                       <p className="card-text">O Tecnólogo em Análise e Desenvolvimento de Sistemas analisa, projeta, documenta, especifica, testa, implanta e mantém sistemas computacionais de informação. <br/> <br/> <strong>Vespertino - 40 Vagas </strong></p>
                     </div>
@@ -114,10 +114,10 @@ export default function Home(){
               </div>
               <div className="col-lg-4 col-sm-6 portfolio-item">
                 <div className="card h-100">
-                  <a href="/cursos/#log"><img className="card-img-top" src={log} alt=""/></a>
+                  <a href="/cursos"><img className="card-img-top" src={log} alt=""/></a>
                     <div className="card-body">
                       <h4 className="card-title">
-                        <a href="/cursos/#log">Logística</a>
+                        <a href="/cursos">Logística</a>
                       </h4>
                       <p className="card-text">
                       O Tecnólogo em Logística é o profissional especializado em armazenagem, distribuição e transporte. Atuando na área logística de uma organização, planeja e coordena a movimentação física e de informações sobre as operações multimodais e intermodais de transporte, incluindo o gerenciamento de pessoas para proporcionar fluxo otimizado ao longo da cadeia de suprimentos. <br/><br/><strong>Vespertino - 40 Vagas <br/> Noturno - 40 Vagas</strong>
@@ -127,10 +127,10 @@ export default function Home(){
               </div>
                 <div className="col-lg-4 col-sm-6 portfolio-item">
                   <div className="card h-100">
-                    <a href="/cursos/#comext"><img className="card-img-top" src={comex} alt=""/></a>
+                    <a href="/cursos"><img className="card-img-top" src={comex} alt=""/></a>
                       <div className="card-body">
                         <h4 className="card-title">
-                          <a href="/cursos/#comext">Comércio Exterior</a>
+                          <a href="/cursos">Comércio Exterior</a>
                         </h4>
                         <p className="card-text">O Tecnólogo em Comércio Exterior é o profissional empreendedor capaz de contribuir para a inserção das empresas no comércio internacional. Gerencia operações de comércio exterior. <br/><br/><strong>Matutino - 40 Vagas</strong></p>
                       </div>
@@ -138,10 +138,10 @@ export default function Home(){
               </div>
               <div className="col-lg-4 col-sm-6 portfolio-item">
                 <div className="card h-100">
-                  <a href="/cursos/#logap"><img className="card-img-top" src={logap} alt=""/></a>
+                  <a href="/cursos"><img className="card-img-top" src={logap} alt=""/></a>
                     <div className="card-body">
                       <h4 className="card-title">
-                        <a href="/cursos/#logap">Logística Aeroportuária</a>
+                        <a href="/cursos">Logística Aeroportuária</a>
                       </h4>
                       <p className="card-text">O Tecnólogo em Logística Aeroportuária está habilitado a desenvolver atividades de planejamento, controle e supervisão no exercício de funções relacionadas à gestão aeroportuária, principalmente nos aspectos de logística: armazenagem, distribuição e transporte; planejamento e coordenação da movimentação física e de informações sobre as operações de transporte aéreo, para proporcionar fluxo otimizado e de qualidade para passageiros, e produtos. <br/><br/><strong>Matutino - 40 Vagas</strong></p>
                     </div>
@@ -163,10 +163,10 @@ export default function Home(){
               </div>
               <div className="col-lg-4 col-sm-6 portfolio-item">
                 <div className="card h-100">
-                  <a href="/cursos/#ind"><img className="card-img-top" src={prind} alt=""/></a>
+                  <a href="/cursos"><img className="card-img-top" src={prind} alt=""/></a>
                     <div className="card-body">
                       <h4 className="card-title">
-                        <a href="/cursos/#ind">Gestão da Produção Industrial</a>
+                        <a href="/cursos">Gestão da Produção Industrial</a>
                       </h4>
                       <p className="card-text">O Tecnólogo de Gestão da Produção Industrial planeja, supervisiona e aplica processos de produção. Planeja a logística de movimentação do produto na indústria. Avalia e otimiza fluxos de materiais, layouts e linhas de produção. Supervisiona a seleção e o tratamento das matérias-primas. <br/><br/><strong>Noturno - 40 Vagas</strong></p>
                     </div>
