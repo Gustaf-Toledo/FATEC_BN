@@ -1,0 +1,17 @@
+#siteRelease {
+    margin-top: 2rem;
+}
+
+#siteRelease .images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#siteRelease img {
+    height: 20rem;
+    width: 35rem;
+    border-radius: 0.8rem;
+    border: 1px solid black;
+    margin: 0 0.5rem;
+}

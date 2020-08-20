@@ -17,7 +17,11 @@ export default function Footer() {
                 <img src={logoCPS} alt="Centro Paula Souza"/>
             </div>
             <div>
-            <p className="m-0 text-center text-white">Copyright &copy; FATEC Guarulhos 2020</p>
+                <p className="m-0 text-center text-white">Rua Cristóbal Claudio Elillo, 88 - Parque Cecap - Guarulhos </p>
+            </div>
+            <hr/>
+            <div>
+                <p className="m-0 text-center text-white">Copyright &copy; FATEC Guarulhos 2020</p>
             </div>
         </footer>
     )
