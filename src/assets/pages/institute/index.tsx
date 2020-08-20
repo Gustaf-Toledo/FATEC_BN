@@ -15,7 +15,7 @@ export default function Institucional() {
     return (
         <div className="institute-content">
             <NavBar />
-                <div className="container">
+                <div className="container" id="institute-container">
                     <div className="row">
                         <div id="about-fatec" className="col-md-12 mb-5">
                             <h2>Sobre as Fatecs</h2>

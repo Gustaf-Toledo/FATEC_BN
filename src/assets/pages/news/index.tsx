@@ -12,7 +12,7 @@ export default function NewsPage() {
     return (
         <div className="news-page">
             <NavBar />
-                <div className="container">
+                <div className="container" id="news-id">
                     <div className="row">
                         <div id="siteRelease" className="col-md-12 mb-5">
                             <h2>LANÇAMENTO DO NOVO SITE</h2>

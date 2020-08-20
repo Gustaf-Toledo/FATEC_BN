@@ -15,7 +15,7 @@ export default function Cursos(){
     return (
         <div className="courses-content">
             <NavBar />
-            <div className="container">
+            <div className="container" id="courses-container">
                 <div className="row">
                         <div id="ads" className="col-md-12 mb-5">
                             <h2>Análise e Desenvolvimento de Sistemas</h2>

@@ -6,6 +6,7 @@ import Footer from '../../components/footer/index';
 
 import '../../styles/bootstrap.css';
 import '../../pages/page-landing/styles.css';
+import './styles.css';
 
 import log from '../../images/courses/log.jpg';
 import logap from '../../images/courses/logap.jpg';
@@ -59,7 +60,7 @@ export default function Home(){
       </header>
 
   
-      <div className="container">
+      <div className="container" id="landing-container">
         <h1 className="my-4">Notícias</h1>
           <div className="row">
             <div className="col-lg-4 mb-4">

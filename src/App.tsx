@@ -4,7 +4,7 @@ import Routes from './routes';
 
 function App() {
   return (
-    <div>
+    <div style={{ height: "100%" }}>
       <Routes />
     </div>
   );
