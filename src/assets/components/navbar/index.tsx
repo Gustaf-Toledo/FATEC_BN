@@ -4,12 +4,14 @@ import { Link } from 'react-router-dom';
 
 import '../../styles/bootstrap.css';
 import '../../styles/global.css';
+import './styles.css';
 
 export default function NavBar() {
     return (
-      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-dark">
         <div className="container">
-          <Link className="navbar-brand" to="/">Fatec Guarulhos</Link>
+          <Link className="navbar-brand" to="/"><h1>Fatec <p>Guarulhos</p></h1>
+          </Link>
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
             </button>
@@ -25,19 +27,25 @@ export default function NavBar() {
                 Institucional
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/cursos" id="navbarCourses" aria-haspopup="true" aria-expanded="false"> 
+              <li className="nav-item dropdown">
+                <Link className="nav-link" to="/cursos" id="navbarCourses"aria-haspopup="true" aria-expanded="false"> 
                   Cursos
                 </Link>
+                {/* <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                  <Link className="dropdown-item" to="/ads">Análise e Desenvolvimento de Sistemas</Link>
+                  <Link className="dropdown-item" to="/cursos/comext">Comércio Exterior</Link>
+                  <Link className="dropdown-item" to="/cursos/log">Logística</Link>
+                  <Link className="dropdown-item" to="/cursos/ind">Gestão da Produção Industrial</Link>
+                  <Link className="dropdown-item" to="/cursos/logap">Logística Aeroportuária</Link>
+                </div> */}
               </li>
               <li className="nav-item dropdown">
                 <Link className="nav-link dropdown-toggle" to="/cursos" id="navbarCourses" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
                   Acadêmico
                 </Link>
                 <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                  <a className="dropdown-item" href="/academico">Biblioteca e Discentes</a>
+                  <Link className="dropdown-item" to="/academico">Biblioteca e Discentes</Link>
                   <a className="dropdown-item" href="https://drive.google.com/file/d/1jw7WPmsvCmBEzq9AU5iYoohHYg6h6r44/view" target="_blank"> Calendário Acadêmico</a>
-                  <a className="dropdown-item" href=""> Docentes</a>
                 </div>
               </li>
               <li className="nav-item">

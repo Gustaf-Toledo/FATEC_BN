@@ -6,6 +6,7 @@
 
 #main-footer div img {
     margin-right: 2rem;
+    height: 6rem;
 }
 
 #main-footer hr {
@@ -13,4 +14,11 @@
     height: 1px;
     background: white;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+@media (min-width: 768px) {
+    #main-footer div img {
+        margin-right: 2rem;
+        height: 8rem;
+    }
 }
